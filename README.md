@@ -1,41 +1,39 @@
 ## 社員の健康管理アプリ \~足りない一品をあなたに~
-produced by みんなのおとん
+produced by みんなのおとん  
 このプロジェクトは，ハッカソン型開発演習にて作成したプログラムである．
 
 ## 仕様
 `yarn start` で実行できる
 
-## 追加でaddしたmodule
+## 追加でaddしたmodule  
 **material-ui/core**  
-`yarn add @material-ui/core`
-`yarn add @material-ui/icons`
-`yarn add @material-ui/material`
+`yarn add @material-ui/core`  
+`yarn add @material-ui/icons`  
+`yarn add @material-ui/material`  
 
 **recharts**  
 `yarn add recharts@1.8.5`  
 `yarn add -D @types/recharts`  
 
-**router**
-`yarn add react-router-dom`
+**router**  
+`yarn add react-router-dom`  
 
-**react-bootstrap**
-`yarn add react-bootstrap`
+**react-bootstrap**  
+`yarn add react-bootstrap`  
 
-**redux-form**
-`yarn add redux-form`
-`yarn add -D @types/redux-form`
+**redux-form**  
+`yarn add redux-form`  
+`yarn add -D @types/redux-form`  
 
-**react-router-dom**
+**react-router-dom**  
 `npx create-react-app my-app --template redux-typescript`で作成したため，  
-typescriptとreduxの一式は既に用意された状態で作成可能
+typescriptとreduxの一式は既に用意された状態で作成可能  
 
-
-
-
+---
 ## jsonの内訳
 外部データとして，社員（ログインユーザ）の勤務状況をjson形式で取ってくる．
 
-personalinfo_*.json
+personalinfo_*.json  
 ```
 {
   "comment": "総合職（症状該当無しで健康）",
